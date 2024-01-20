@@ -37,7 +37,7 @@ app.get("/contact", (req,res)=>{
     res.sendFile("contact.html",{root: __dirname });
 })
 app.post("/submit", (req,res)=>{
-    res.status(200).json({message: 'Form submitted successfully'});
+    res.status(200).json({message: 'Form submitted successfully}'});
 })
 
 app.get("/submit", (req,res)=>{
