@@ -10,6 +10,13 @@ app.get("/", (req,res)=>{
 app.get("/profile/5", (req,res)=>{
         res.status(200).json({name:"James Kettile", age:10, CreditCardNumber:123456789});
 })
+app.get("/profile/6", (req,res)=>{
+    res.status(200).json({name:"I-CES Committee", age:15, CreditCardNumber:5481245487});
+})
+
+app.get("/profile/4", (req,res)=>{
+    res.status(200).json({name:"Aarati Mahato", age:22, CreditCardNumber:321532181});
+})
 
 app.get("/profile/250", (req,res)=>{
     res.status(200).json({name:"i-360{ID0R_CH41133D_S0lve}", age:10, CreditCardNumber:123456789});
