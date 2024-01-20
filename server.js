@@ -19,6 +19,10 @@ app.get("/profile/-5", (req,res)=>{
     res.status(200).json({name:"i-360{Negative_ID0R_CH41133_IS_specIAl}", age:10, CreditCardNumber:123456789});
 })
 
+app.get("/app", (req,res)=>{
+    res.status(200).json({name:"i-360{FUZZ1NG_1S_SH0U1D_B3_D0N3}"});
+})
+
 app.get("/contact", (req,res)=>{
     res.set({
         'Flag': 'i-360{ResP0Nc3_H34D3R_AR3_IMP0RTAN7}',
