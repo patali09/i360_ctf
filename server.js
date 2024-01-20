@@ -8,7 +8,7 @@ app.get("/", (req,res)=>{
 })
 
 app.get("/profile/5", (req,res)=>{
-        res.status(200).json({name:"James Kettile", age:10, CreditCardNumber:123456789});
+        res.status(200).json({name:"James Kettle", age:10, CreditCardNumber:123456789});
 })
 app.get("/profile/6", (req,res)=>{
     res.status(200).json({name:"I-CES Committee", age:15, CreditCardNumber:5481245487});
